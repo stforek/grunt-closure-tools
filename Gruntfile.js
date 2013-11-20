@@ -123,7 +123,7 @@ module.exports = function(grunt) {
     nodeunit: {
       all: [
         // all lib tests
-        'test/{builder,compiler,depsWriter}/**/*.js',
+        'test/{builder,compiler,depsWriter,helpers}/**/*.js',
         // grunt task tests
         'test/*.js'
       ]
